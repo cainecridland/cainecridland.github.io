@@ -10,6 +10,7 @@ import { SkillsComponent } from './profile/skills/skills.component';
 import { ToolsComponent } from './profile/tools/tools.component';
 import { ProjectsComponent } from './profile/projects/projects.component';
 import { ContactModalComponent } from './contact-modal/contact-modal.component';
+import { EducationComponent } from './profile/education/education.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ContactModalComponent } from './contact-modal/contact-modal.component';
     SkillsComponent,
     ToolsComponent,
     ProjectsComponent,
-    ContactModalComponent
+    ContactModalComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule
